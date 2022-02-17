@@ -1,10 +1,10 @@
 {
-  "name": "link-validador-md",
+  "name": "link-validator-md",
   "version": "1.0.0",
   "description": "Library to perform link validations within a markdown file, checking the statusCode of each one of them.",
   "main": "./src/cli.js",
   "bin": {
-    "link-validador": "./src/cli.js"
+    "link-validator": "./src/cli.js"
   },
   "preferGlobal": true,
   "scripts": {
@@ -15,9 +15,9 @@
   "author": "YujiYashima",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/YujiYashima/link-validador-md/issues"
+    "url": "https://github.com/YujiYashima/link-validator-md/issues"
   },
-  "homepage": "https://github.com/YujiYashima/link-validador-md",
+  "homepage": "https://github.com/YujiYashima/link-validator-md",
   "dependencies": {
     "chalk": "^4.1.2",
     "node-fetch": "^2.6.1"
