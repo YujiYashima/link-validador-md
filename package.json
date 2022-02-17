@@ -2,13 +2,13 @@
   "name": "link-validador-md",
   "version": "1.0.0",
   "description": "Library to perform link validations within a markdown file, checking the statusCode of each one of them.",
-  "main": "./cli.js",
+  "main": "./src/cli.js",
   "bin": {
-    "link-validador": "./cli.js"
+    "link-validador": "./src/cli.js"
   },
   "preferGlobal": true,
   "scripts": {
-    "cli": "node cli.js ./example/example.md",
+    "cli": "node ./src/cli.js ./example/example.md",
     "test": "jest ./test"
   },
   "keywords": ["markdown", "URL", "Validation", "Test", "cli"],

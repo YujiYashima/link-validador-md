@@ -1,6 +1,6 @@
 const chalk = require('chalk');
 const fs = require('fs');
-const errorHandling = require('./errorHandling')
+const errorHandling = require('./http-validation')
 
 const extractLinks = text => {
     const regex = /\[([^\]]*)\]\((https?:\/\/[^$#\s].[^\s]*)\)/gm;

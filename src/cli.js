@@ -2,7 +2,7 @@
 
 const chalk = require('chalk');
 const getFile = require('./index');
-const validateURLs = require('./http-validation');
+const validateURLs = require('./errorHandling');
 
 const path = process.argv;
 
