@@ -14,6 +14,10 @@
   "keywords": ["markdown", "URL", "Validation", "Test", "cli"],
   "author": "YujiYashima",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YujiYashima/link-validador-md/issues"
+  },
+  "homepage": "https://github.com/YujiYashima/link-validador-md",
   "dependencies": {
     "chalk": "^4.1.2",
     "node-fetch": "^2.6.1"
